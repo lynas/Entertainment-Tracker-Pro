@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lynas.et"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lynas.et.MainActivity"
+            android:label="Entertainment Tracker" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lynas.et.HomeActivity"
+            android:label="Entertainment Tracker" 
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="com.lynas.et.M"
+            android:label="Entertainment Tracker" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.lynas.et.ui.tvshow.TV_Home"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lynas.et.ui.tvshow.TV_show_add_new_show_form"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lynas.et.ui.tvshow.Tv_Show_Season_Home"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lynas.et.ui.tvshow.Tv_Show_Episode_Home"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lynas.et.ui.anime.Anime_Home"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lynas.et.ui.anime.Anime_Add_new_form"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.lynas.et.ui.anime.Anime_Episode_Home"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+        <provider 
+            android:name="com.lynas.et.domain.DataProvider_TVShow"
+            android:exported="false"
+            android:authorities="com.lynas.et.domain.DataProvider_TVShow"></provider>
+        
+        <provider 
+            android:name="com.lynas.et.domain.DataProvider_Anime"
+            android:exported="false"
+            android:authorities="com.lynas.et.domain.DataProvider_Anime">
+            
+        </provider>
+        
+        
+    </application>
+
+</manifest>

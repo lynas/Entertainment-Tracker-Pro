@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ET</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_m">M</string>
+    
+    
+    <string-array name="SeasonName">
+        <item>Season 1</item>
+        <item>Season 2</item>
+        <item>Season 3</item>
+        <item>Season 4</item>
+        <item>Season 5</item>
+        <item>Season 6</item>
+        <item>Season 7</item>
+        <item>Season 8</item>
+        <item>Season 9</item>
+        <item>Season 10</item>
+        <item>Season 11</item>
+        <item>Season 12</item>
+        <item>Season 13</item>
+        <item>Season 14</item>
+        <item>Season 15</item>
+        <item>Season 16</item>
+        <item>Season 17</item>
+        <item>Season 18</item>
+        <item>Season 19</item>
+        <item>Season 20</item>
+        <item>Season 21</item>
+        <item>Season 22</item>
+        <item>Season 23</item>
+        <item>Season 24</item>
+        <item>Season 25</item>
+        <item>Season 26</item>
+        <item>Season 27</item>
+        <item>Season 28</item>
+        <item>Season 29</item>
+        <item>Season 30</item>
+    </string-array>
+
+    <string name="PickNumberOfEpisode">Pick Number Of Episode</string>
+
+    <string-array name="NoOfEpisode">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="PickNumberOfEpisodeAnime">Pick Number Of Episode</string>
+
+    <string-array name="NoOfEpisodeAnime">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1100</item>
+        <item>1200</item>
+        <item>1300</item>
+        <item>1400</item>
+        <item>1500</item>
+        <item>1600</item>
+        <item>1700</item>
+        <item>1800</item>
+        <item>1900</item>
+        <item>2000</item>
+    </string-array>
+
+    <string name="PickAirDayOfAnime">Pick Air Day</string>
+
+    <string-array name="dayOfAnime">
+        <item>1 Monday</item>
+        <item>2 Tuesday</item>
+        <item>3 Wednesday</item>
+        <item>4 Thursday</item>
+        <item>5 Friday</item>
+        <item>6 Saturday</item>
+        <item>7 Sunday</item>
+    </string-array>
+
+    <string name="title_activity_select_show_name">Select Show Name</string>
+    <string name="title_activity_tv_show_actions">TV Show Actions</string>
+    <string name="title_activity_select_season">Select Season</string>
+    <string name="title_activity_input_prompt">InputPrompt</string>
+    <string name="title_activity_movie_action">MovieAction</string>
+    <string name="title_activity_add_anew_movie">Add A New Movie</string>
+    <string name="title_activity_movie_details">Movie Details</string>
+    <string name="title_activity_anime_action">Anime</string>
+    <string name="title_activity_add_anew_anime">AddANewAnime</string>
+    <string name="title_activity_view_all_anime">All Anime</string>
+    <string name="title_activity_anime_episode_details">AnimeEpisodeDetails</string>
+    <string name="title_activity_select_episode">Select_episode</string>
+    <string name="PickNumberOfSeason">Pick Number Of Season</string>
+
+</resources>
