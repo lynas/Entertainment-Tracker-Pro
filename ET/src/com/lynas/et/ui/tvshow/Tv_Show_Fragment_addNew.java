@@ -23,7 +23,7 @@ public class Tv_Show_Fragment_addNew extends Fragment implements OnClickListener
 		
 		return view_tvshowAddNew;
 	}
-
+ 
 	@Override
 	public void onClick(View v) {
 		Intent addNewTvShow = new Intent(getActivity(), TV_show_add_new_show_form.class);

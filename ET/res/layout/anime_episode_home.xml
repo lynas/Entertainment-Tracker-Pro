@@ -4,16 +4,42 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <FrameLayout
-        android:id="@+id/flAnimeEpisodeNavBar"
-        android:layout_width="match_parent"
-        android:layout_height="58dp" > 
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/flAnimeEpisodeList"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
-    </FrameLayout>
+
+        <Button
+            android:id="@+id/bt_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bt_next"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/bt_next"
+            android:layout_toRightOf="@+id/bt_previous"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_anime_episode_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
 </LinearLayout>
