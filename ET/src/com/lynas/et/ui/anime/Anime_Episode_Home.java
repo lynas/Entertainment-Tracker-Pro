@@ -53,7 +53,7 @@ public class Anime_Episode_Home extends FragmentActivity {
 			public void onClick(View v) {
 
 				prevStat = true;
-				animeList.removeAll(animeList);
+				
 				getFromDb2(gottenAnimeName);
 				if (showPagePrev) {
 					animeListAdapter.notifyDataSetChanged();
@@ -68,7 +68,7 @@ public class Anime_Episode_Home extends FragmentActivity {
 			@Override
 			public void onClick(View v) {
 				prevStat = true;
-				animeList.removeAll(animeList);
+				
 				getFromDb(gottenAnimeName);
 				if (showPageNext) {
 					animeListAdapter.notifyDataSetChanged();
@@ -96,6 +96,9 @@ public class Anime_Episode_Home extends FragmentActivity {
 				DataStructure_Anime.ANIMENAME + "= '"+ selectedAnimeName + "' AND "	+ DataStructure_Anime.ANIMEID + " > " + lastID, 
 				null,
 				DataStructure_Anime.ANIMEID + " ASC LIMIT 0 , 10");
+		if(cursor!=null && cursor.getCount()>0){
+			animeList.removeAll(animeList);
+		}
 		if (cursor.moveToFirst()) {
 			do {
 				tempName = cursor.getString(cursor.getColumnIndex(DataStructure_Anime.ANIMEEPISODE));
@@ -140,7 +143,9 @@ public class Anime_Episode_Home extends FragmentActivity {
 				DataStructure_Anime.ANIMENAME + "= '"+ selectedAnimeName + "' AND "	+ DataStructure_Anime.ANIMEID + " < " + prevID, 
 				null,
 				DataStructure_Anime.ANIMEID + " DESC LIMIT 0, 10");
-
+		if(cursor!=null && cursor.getCount()>0){
+			animeList.removeAll(animeList);
+		}
 		if (cursor.moveToLast()) {
 			do {
 				tempName = cursor.getString(cursor.getColumnIndex(DataStructure_Anime.ANIMEEPISODE));
@@ -153,7 +158,7 @@ public class Anime_Episode_Home extends FragmentActivity {
 				}
 				lastID = tempId;
 
-			} while (cursor.moveToPrevious());
+			} while (cursor.moveToPrevious()); 
 		}
 		Log.d("prevID : ", "" + prevID);
 		Log.d("lastID : ", "" + lastID);
