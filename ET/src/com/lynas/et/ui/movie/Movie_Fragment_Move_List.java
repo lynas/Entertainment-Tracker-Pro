@@ -1,4 +1,4 @@
-package com.lynas.et.ui.tvshow;
+package com.lynas.et.ui.movie;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ import com.lynas.et.R;
 import com.lynas.et.domain.DataProvider_TVShow;
 import com.lynas.et.domain.DataStructure_TVShow;
 
-public class Tv_Show_Fragment_show_list extends Fragment {
+public class Movie_Fragment_Move_List extends Fragment {
 	View view_tvshowAddNew;
 	ListView tv_show_list;
 	ArrayAdapter<String> showNameAdapter;
@@ -53,11 +53,11 @@ public class Tv_Show_Fragment_show_list extends Fragment {
 		// ArrayAdapter<String>(getActivity().getApplicationContext(),
 		// R.layout.tv_show_each_show_name, FRUITS);
 		
-		/*showNameAdapter = new ArrayAdapter<String>(getActivity(), R.layout.tv_show_each_show_name, FRUITS);
-		tv_show_list.setAdapter(showNameAdapter);*/
+		showNameAdapter = new ArrayAdapter<String>(getActivity(), R.layout.tv_show_each_show_name, FRUITS);
+		tv_show_list.setAdapter(showNameAdapter);
 		
-		Tv_Show_Name_List_customAdapter adapter = new Tv_Show_Name_List_customAdapter(getActivity(), items);
-		tv_show_list.setAdapter(adapter);
+		/*Tv_Show_Name_List_customAdapter adapter = new Tv_Show_Name_List_customAdapter(getActivity(), items);
+		tv_show_list.setAdapter(adapter);*/
 		
 		tv_show_list.setOnItemClickListener(new OnItemClickListener() {
 

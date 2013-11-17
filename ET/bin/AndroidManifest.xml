@@ -13,6 +13,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+        
+        
+        
         <activity
             android:name="com.lynas.et.MainActivity"
             android:label="Entertainment Tracker" >
@@ -68,21 +72,32 @@
             android:label="Entertainment Tracker"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.lynas.et.ui.movie.Movie_Home"
+            android:label="Entertainment Tracker"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+        
+        
         
         
         <provider 
             android:name="com.lynas.et.domain.DataProvider_TVShow"
             android:exported="false"
-            android:authorities="com.lynas.et.domain.DataProvider_TVShow"></provider>
-        
+            android:authorities="com.lynas.et.domain.DataProvider_TVShow">
+        </provider>
         <provider 
             android:name="com.lynas.et.domain.DataProvider_Anime"
             android:exported="false"
             android:authorities="com.lynas.et.domain.DataProvider_Anime">
-            
         </provider>
-        
-        
+        <provider 
+            android:name="com.lynas.et.domain.DataProvider_Movie"
+            android:exported="false"
+            android:authorities="com.lynas.et.domain.DataProvider_Movie">
+        </provider>
     </application>
 
 </manifest>

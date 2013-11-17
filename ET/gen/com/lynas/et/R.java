@@ -35,17 +35,17 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f090021;
-        public static final int btAddNewTvShow=0x7f09001b;
+        public static final int btAddNewTvShow=0x7f09001d;
         public static final int btAnimeAdd=0x7f090005;
         public static final int bt_next=0x7f090008;
         public static final int bt_previous=0x7f090007;
-        public static final int button1=0x7f090014;
-        public static final int button2=0x7f090015;
-        public static final int eachrow=0x7f09001c;
+        public static final int button1=0x7f090016;
+        public static final int button2=0x7f090017;
+        public static final int eachrow=0x7f09001e;
         public static final int etAnimeName=0x7f090000;
-        public static final int etTVShowName=0x7f090018;
-        public static final int flTv_show_add_new=0x7f09001e;
-        public static final int flTv_show_list=0x7f09001f;
+        public static final int etTVShowName=0x7f09001a;
+        public static final int flTv_show_add_new=0x7f090014;
+        public static final int flTv_show_list=0x7f090015;
         public static final int flanime_add_new=0x7f09000a;
         public static final int flanime_anime_list=0x7f09000b;
         public static final int frameLeft=0x7f09000e;
@@ -60,14 +60,14 @@ public final class R {
         public static final int sectionTop=0x7f09000d;
         public static final int spAnimeAirDate=0x7f090004;
         public static final int spAnimeNoOfEpisode=0x7f090001;
-        public static final int spPevTVShow=0x7f090017;
-        public static final int spSelectTVShowSeason=0x7f090019;
-        public static final int spTVSelectNoOfEpisode=0x7f09001a;
+        public static final int spPevTVShow=0x7f090019;
+        public static final int spSelectTVShowSeason=0x7f09001b;
+        public static final int spTVSelectNoOfEpisode=0x7f09001c;
         public static final int textView1=0x7f090002;
         public static final int textView2=0x7f090003;
-        public static final int textView3=0x7f090016;
+        public static final int textView3=0x7f090018;
         public static final int tvShowAddNew=0x7f09000c;
-        public static final int tv_sh_each_name2=0x7f09001d;
+        public static final int tv_sh_each_name2=0x7f09001f;
     }
     public static final class layout {
         public static final int activity_m=0x7f030000;
@@ -81,14 +81,15 @@ public final class R {
         public static final int home_a=0x7f030008;
         public static final int home_m=0x7f030009;
         public static final int home_t=0x7f03000a;
-        public static final int test_layout=0x7f03000b;
-        public static final int tv_show_add_new_form=0x7f03000c;
-        public static final int tv_show_add_new_show=0x7f03000d;
-        public static final int tv_show_each_show_name=0x7f03000e;
-        public static final int tv_show_each_show_name2=0x7f03000f;
-        public static final int tv_show_home=0x7f030010;
-        public static final int tv_show_season_home=0x7f030011;
-        public static final int tv_show_show_list=0x7f030012;
+        public static final int movie_home=0x7f03000b;
+        public static final int test_layout=0x7f03000c;
+        public static final int tv_show_add_new_form=0x7f03000d;
+        public static final int tv_show_add_new_show=0x7f03000e;
+        public static final int tv_show_each_show_name=0x7f03000f;
+        public static final int tv_show_each_show_name2=0x7f030010;
+        public static final int tv_show_home=0x7f030011;
+        public static final int tv_show_season_home=0x7f030012;
+        public static final int tv_show_show_list=0x7f030013;
     }
     public static final class menu {
         public static final int m=0x7f080000;

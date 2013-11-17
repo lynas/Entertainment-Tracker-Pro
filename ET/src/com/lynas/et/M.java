@@ -1,5 +1,9 @@
 package com.lynas.et;
 
+import com.lynas.et.ui.movie.Movie_Home;
+import com.lynas.et.ui.tvshow.TV_Home;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -26,6 +30,9 @@ public class M extends Fragment implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		Log.d("TAG", "Side b");
+		Intent movie = new Intent(getActivity(), Movie_Home.class);
+		startActivity(movie);
+		
 		
 	}
 
